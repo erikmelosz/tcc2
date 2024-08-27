@@ -15,6 +15,7 @@ body {
   font-size: 0.9em;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 .slider {
   margin: 0 auto;
