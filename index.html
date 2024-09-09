@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saúde & Beleza</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">    
 </head>
 <header>
     <div class="top-bar">
@@ -17,88 +16,176 @@
             <a href="#">Sobre nós</a>
             <a href="#">Nossa equipe</a>
             <img src="images/user.png">
+            <input type="text" placeholder="Quais tratamentos você procura?">
         </nav>
     </div>
-</header>
-<div class="slider">
-    <div class="slides">
-        <!--Radio Buttons-->
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <!--Fim Radio Buttons-->
-
-        <!--Slide images-->
-        <div class="slide first">
-            <img src="images/carrousel1.png">
+    
+    <body>
+   
+    
+        <div class="slider">
+            <div class="slides">
+                <!--Radio Buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <!--Fim Radio Buttons-->
+        
+                <!--Slide images-->
+                <div class="slide first">
+                    <img src="images/carrousel1.png">
+                </div>
+                <div class="slide">
+                    <img src="images/carrousel2.png">
+                </div>
+                <div class="slide">
+                    <img src="images/carrousel 3.jpg">
+                </div>
+                <!--Fim slide images-->
+        
+                <!--Nav auto-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+        
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
         </div>
-        <div class="slide">
-            <img src="images/carrousel2.png">
+    
+        <!-- Seção de especialidades -->
+        <div class="splitter">
+            <h1>Resultados Incríveis</h1>
         </div>
-        <div class="slide">
-            <img src="images/carrousel 3.jpg">
-        </div>
-        <!--Fim slide images-->
+    
+        <section class="services">
+            <div class="service-item">
+                <img src="images/nutri.png" alt="Acompanhamento nutricional">
+                <p>Acompanhamento nutricional</p>
+            </div>
+            <div class="service-item">
+                <img src="images/nulher.png" alt="Limpeza de pele">
+                <p>Limpeza de pele</p>
+            </div>
+            <div class="service-item">
+                <img src="images/bronze.png" alt="Bronzeamento Artificial">
+                <p>Bronzeamento Artificial</p>
+            </div>
+        </section>
+    
+        <!-- Seção dos serviços mais desejados -->
+        
+            <div class="container">
+                <div class="card">
+                  <img src="images/nutri.png" alt="nutricionista">
+                  <h2>HOLLYWOOD PEEL</h2>
+                  <p>Peeling com Laser Q-Plus Evo e carvão ativado, clareamento da pele, fechamento de poros, tratamento de rugas e sinais de envelhecimento, pele mais firme...</p>
+                  <div class="prices">
+                    <div class="valor">
+                      R$220,90<span>*</span>
+                    </div>
+                    <div class="valor-normal">
+                      R$ 353,90
+                    </div>
+                  </div>
+                  <button>
+                    <i class="fa fa-whatsapp"></i> Contato
+                  </button>
+                  <a href="#">Ver Hollywood Peel</a>
+                </div>
+                <div class="card">
+                  <img src="images/nulher.png" alt="Bronzeamento">
+                  <h2>REMOÇÃO DE TATUAGEM</h2>
+                  <p>Remoção de Tatuagem pequena com Laser Q-Plus Evo - Última geração de tratamento, sendo o mais recomendado e seguro para a realização do procedimento.</p>
+                  <div class="prices">
+                    <div class="valor">
+                      R$169,80<span>*</span>
+                    </div>
+                    <div class="valor-normal">
+                      R$ 390,10
+                    </div>
+                  </div>
+                  <button>
+                    <i class="fa fa-whatsapp"></i> Contato
+                  </button>
+                  <a href="#">Ver Remoção de Tatuagens</a>
+                </div>
+                <div class="card">
+                  <img src="images/manicure.png" alt="manicure">
+                  <h2>ULTRAFORMER</h2>
+                  <p>Protocolo Facial Completo. O mais famoso protocolo do Ultraformer, o modo Full Face une protocolos de tratamento de flacidez muscular e tissular, ancoragem muscular e neocolagenese.</p>
+                  <div class="prices">
+                    <div class="valor">
+                      12x R$193,40
+                    </div>
+                    <div class="valor-normal">
+                      12x R$ 276,90
+                    </div>
+                  </div>
+                  <button>
+                    <i class="fa fa-whatsapp"></i> Contato
+                  </button>
+                  <a href="#">Ver Ultraformer III</a>
+                </div>
+              </div>
+            </div>
+        
+        <section class="ofertas">
+            <div class="container">
+                <h2>ofertas imperdiveis</h2>
+                <div class="grid">
+                    <div class="oferta">
+                        <h3>Limpeza de Pele (1 sessão)</h3>
+                        <p>de: R$ 195,00</p>
+                        <p>Por: R$ 90,00</p>
+                        <p>1x de R$ 90,00 sem juros</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="oferta">
+                        <h3>Limpeza de Pele (1 sessão)</h3>
+                        <p>de: R$ 195,00</p>
+                        <p>Por: R$ 90,00</p>
+                        <p>1x de R$ 90,00 sem juros</p>
+                        <button>Comprar</button>
+                    </div>
+                    <div class="oferta">
+                        <h3>Limpeza de Pele (1 sessão)</h3>
+                        <p>de: R$ 195,00</p>
+                        <p>Por: R$ 90,00</p>
+                        <p>1x de R$ 90,00 sem juros</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <!--Nav auto-->
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-        </div>
-
-    </div>
-    <div class="manual-navigation">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-    </div>
-</div>
-
-<div class="splitter">
-    <h1><span class="highlight">Nossas</span> especialidades</h1>
-</div>
-
-<section class="services">
-    <div class="service-item">
-        <img src="images/nutri.png" alt="Acompanhamento nutricional">
-
-        <p>Acompanhamento nutricional</p>
-    </div>
-    <div class="service-item">
-        <img src="images/nulher.png" alt="Limpeza de pele">
-
-        <p>Limpeza de pele</p>
-
-    </div>
-    <div class="service-item">
-        <img src="images/bronze.png" alt="Bronzeamento Artificial">
-
-        <p>Bronzeamento Artificial</p>
-
-    </div>
-</section>
-
-<section class="most-wanted">
-    <h2><span class="highlight">Mais</span> desejados</h2>
-    <div class="service-item">
-        <img src="images/manicure.png" alt="Manicure">
-        <p>MANICURE</p>
-    </div>
-    <div class="service-item">
-        <img src="images/bronze.png" alt="Bronzeamento Artificial">
-        <p>BRONZEAMENTO ARTIFICIAL</p>
-    </div>
-    <div class="service-item">
-        <img src="images/nutri.png" alt="Acompanhamento Nutricional">
-        <p>ACOMPANHAMENTO NUTRICIONAL</p>
-    </div>
-    <div class="service-item">
-        <img src="images/sol.png" alt="Bronzeamento no Sol">
-        <p>BRONZEAMENTO NO SOL</p>
-    </div>
-</section>
-
-</body>
-
-</html>
+    
+        <!-- Seção de localização -->
+        <section class="mapa">
+            <div class="mapa-item">
+              <h2>Encontre a nossa unidade</h2>
+              <p>Estamos localizados em [endereços das unidades].</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26851.491849410113!2d-46.63397167130609!3d-23.54884444788766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5810778f54d5%3A0x34b3384591e20016!2sR.%20Dr.%20Orlando%20Pires%20de%20Oliveira%2C%20145%2C%20Santo%20Amaro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004753-000!5e0!3m2!1spt-BR!2sbr!4v1696739327397!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </section>
+    
+        <!-- Scripts -->
+        <script src="js/script.js"></script>
+        <footer>
+            <div class="container">
+                <p>© 2024 Uni Saude e Beleza - Todos os direitos reservados.</p>
+                <ul>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+    
+    </html>
