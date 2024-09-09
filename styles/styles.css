@@ -7,6 +7,76 @@ body {
   background-image: url;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 5%;
+}
+.card-spaced {
+  padding-left: 50px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 5%;
+  width: 28%; /* Adjusted to 28% */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  border-radius: 10px;
+}
+.prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prices .valor {
+  font-size: 1.5em;
+  color: #e74c3c;
+}
+.prices .valor-normal {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+.button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button i {
+  margin-right: 5px;
+}
+.ofertas  {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.spaced {
+  margin-bottom: 20px;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  padding-left: 12%;  
+  gap: 20px;
+}
+.oferta {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .top-bar {
   background-color: #4b614c;
   color: #fff;
@@ -32,6 +102,10 @@ body {
 }
 .slides input {
   display: none;
+}
+
+.imagem-centralizada {
+  align-items: center;
 }
 .slide {
   width: 25%;
@@ -101,7 +175,10 @@ body {
 h1 {
   text-align: center;
 }
+.card p {
+  text-align: justify
 
+}
 .splitter {
   padding-top: 80px;
 }
@@ -168,6 +245,7 @@ nav a:hover {
   width: 180px;
   text-align: center;
   border-radius: 10px;
+  height: 180px;
 }
 
 .service-item img {
@@ -194,3 +272,4 @@ nav a:hover {
 .most-wanted .highlight {
   color: #c6b18c;
 }
+
